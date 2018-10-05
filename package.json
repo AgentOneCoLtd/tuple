@@ -1,0 +1,36 @@
+{
+  "name": "@ag1/tuple",
+  "version": "0.1.0",
+  "description": "tuple utils",
+  "main": "index.js",
+  "author": "agent one co., ltd.",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile": "tsc",
+    "lint": "tslint -p tsconfig.json -t stylish",
+    "prettier": "yarn prettier-config && yarn prettier-ts",
+    "prettier-config": "prettier --no-config --write \"./*.{json,yml}\"",
+    "prettier-ts": "prettier --write \"./**/*.ts\"",
+    "test": "jest --config \"./jest.config.json\""
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.2",
+    "ts-jest": "^23.10.0",
+    "tslint": "^5.11.0",
+    "tslint-microsoft-contrib": "^5.2.1",
+    "typescript": "^3.0.3"
+  },
+  "keywords": [
+    "tuple",
+    "util",
+    "typescript"
+  ],
+  "repository": {
+    "url": "https://github.com/AgentOneCoLtd/tuple.git",
+    "type": "git"
+  },
+  "readmeFilename": "readme.md"
+}
