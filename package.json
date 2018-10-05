@@ -2,7 +2,7 @@
   "name": "@ag1/tuple",
   "version": "0.1.0",
   "description": "tuple utils",
-  "main": "index.js",
+  "main": "app/index.js",
   "author": "agent one co., ltd.",
   "license": "MIT",
   "private": false,
