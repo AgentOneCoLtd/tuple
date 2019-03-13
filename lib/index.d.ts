@@ -6,4 +6,5 @@ export interface IKeyValTuple<T = {}> {
     [KeyValTupleIndex.KEY]: keyof T;
     [KeyValTupleIndex.VAL]: any;
 }
-export declare function toObject<T>(tuple: IKeyValTuple<T> | IKeyValTuple<T>[]): T;
+export declare function toObject<T>(tupleList: IKeyValTuple<T>[]): T;
+//# sourceMappingURL=index.d.ts.map
