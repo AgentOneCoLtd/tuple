@@ -8,7 +8,6 @@ export function toObject(tupleList) {
         ...sum,
         [current[KeyValTupleIndex.KEY]]: current[KeyValTupleIndex.VAL],
     });
-    // tslint:disable-next-line no-object-literal-type-assertion
     return tupleList.reduce(reducer, {});
 }
 //# sourceMappingURL=index.js.map
