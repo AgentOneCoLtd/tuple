@@ -1,9 +1,10 @@
-## v1.1.0
+## v1.1.1
+* Upgrade libs
 
+## v1.1.0
 * Update build process
 
 ## v1.0.0
-
 * Update project structure
 * Update typescript configs
 * Update lint rules
