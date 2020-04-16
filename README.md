@@ -1,8 +1,9 @@
 # Tuple Utils
+![Node.js CI](https://github.com/AgentOneCoLtd/tuple/workflows/Node.js%20CI/badge.svg)
 
 Mimic tuple behavior of other language [key, val].
 
-## functions
+## Functions
 
 ### `toObject<T>(tuple: IKeyValTuple<T> | IKeyValTuple<T>[]): T`
 
